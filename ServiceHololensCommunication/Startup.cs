@@ -28,6 +28,18 @@ namespace ServiceHololensCommunication
         public void ConfigureServices(IServiceCollection services)
         {
             HololensCommunicationService hololensCommunicationService = new();
+
+            services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(
+                    builder =>
+                    {
+                        builder.WithOrigins("https://hololenscommunicationserviceawareness.azurewebsites.net/")
+                        .AllowAnyMethod()
+                        .AllowAnyHeader()
+                        .AllowAnyOrigin();
+                    });
+            });
             services.AddSingleton(hololensCommunicationService);
             services.AddControllers();
             services.AddSwaggerGen(c =>

@@ -1,0 +1,89 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "ServiceHololensCommunication",
+    "version": "v1"
+  },
+  "paths": {
+    "/api/hololens-communication-service/health-status": {
+      "get": {
+        "tags": [
+          "HololensCommunication"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/hololens-communication-service/connect-hololens": {
+      "get": {
+        "tags": [
+          "HololensCommunication"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/hololens-communication-service/disconnect-hololens": {
+      "get": {
+        "tags": [
+          "HololensCommunication"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/hololens-communication-service/hololens-connection-status": {
+      "get": {
+        "tags": [
+          "HololensCommunication"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/hololens-communication-service/obtain-procedure-data": {
+      "get": {
+        "tags": [
+          "HololensCommunication"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/hololens-communication-service/set-procedure-data": {
+      "post": {
+        "tags": [
+          "HololensCommunication"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "IdProcedure",
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  }
+}
