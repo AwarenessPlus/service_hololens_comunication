@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "+jctXkYGmh3TaMYdb8pHTIzRL18czdFj+rEI3vWT5l2GG+30tDO97wwrg+foHdKN5D97JVJd+CUXT+qgrp2xdg==",
+  "dgSpecHash": "3eRwxzTOnJ9ch9Sc1A0G+z8/wC+qAP9TpvnLpr6CJK70LXF8Fx5RWcq2VWe4oEJ4CMfpFVRCGEfaacMqWfHhhA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jmarinflorez\\Documents\\Uni\\hololensComunication\\service_hololens_comunication\\ServiceHololensCommunication\\ServiceHololensCommunication.csproj",
+  "projectFilePath": "C:\\Users\\aulasingenieria\\Documents\\Awareness+\\web services\\hololens-comunication\\service_hololens_comunication\\ServiceHololensCommunication\\ServiceHololensCommunication.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\jmarinflorez\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
-    "C:\\Users\\jmarinflorez\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
-    "C:\\Users\\jmarinflorez\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
-    "C:\\Users\\jmarinflorez\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
-    "C:\\Users\\jmarinflorez\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
-    "C:\\Users\\jmarinflorez\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+    "C:\\Users\\aulasingenieria\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\aulasingenieria\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\aulasingenieria\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\aulasingenieria\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\aulasingenieria\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\aulasingenieria\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
   ],
   "logs": []
 }

@@ -11,11 +11,15 @@ namespace ServiceHololensCommunication.Controllers
 
     public class HololensCommunicationController : Controller
     {
-        private readonly HololensCommunicationService HololensCommunicationService;
+        private readonly IHololensCommunicationService _hololensCommunicationService;
 
-        public HololensCommunicationController(HololensCommunicationService hololensCommunicationService)
+        public HololensCommunicationController(IHololensCommunicationService hololensCommunicationService)
         {
-            HololensCommunicationService = hololensCommunicationService;
+            _hololensCommunicationService = hololensCommunicationService;
+        }
+
+        public HololensCommunicationController()
+        {
         }
 
         [Route("api/hololens-communication-service/health-status")]
@@ -31,7 +35,7 @@ namespace ServiceHololensCommunication.Controllers
         {
             try
             {
-                HololensCommunicationService.ConnectHololens();
+                _hololensCommunicationService.ConnectHololens();
                 return Ok("Hololens connected");
             }
             catch {
@@ -46,8 +50,8 @@ namespace ServiceHololensCommunication.Controllers
         {
             try
             {
-                HololensCommunicationService.DisconnectHololens();
-                HololensCommunicationService.SetProcedureData(0);
+                _hololensCommunicationService.DisconnectHololens();
+                _hololensCommunicationService.SetProcedureData(0);
                 return Ok("Hololens disconnected");
             }
             catch
@@ -61,14 +65,14 @@ namespace ServiceHololensCommunication.Controllers
         [HttpGet]
         public IActionResult HololensConnectionStatus()
         {
-            return Ok(HololensCommunicationService.HololensConnectionStatus());
+            return Ok(_hololensCommunicationService.HololensConnectionStatus());
         }
 
         [Route("api/hololens-communication-service/obtain-procedure-data")]
         [HttpGet]
         public IActionResult ObtainProcedureData()
         {
-            return Ok(HololensCommunicationService.ObtainProcedureData());
+            return Ok(_hololensCommunicationService.ObtainProcedureData());
         }
 
         [Route("api/hololens-communication-service/set-procedure-data")]
@@ -76,8 +80,8 @@ namespace ServiceHololensCommunication.Controllers
         public IActionResult SetProcedureData(int IdProcedure)
         {
             try {
-                HololensCommunicationService.SetProcedureData(IdProcedure);
-                return Accepted();
+                int number=_hololensCommunicationService.SetProcedureData(IdProcedure);
+                return Accepted(number);
 
             } catch {
 

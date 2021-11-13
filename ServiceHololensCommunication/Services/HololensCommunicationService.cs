@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace ServiceHololensCommunication.Services
 {
-    public class HololensCommunicationService
+    public class HololensCommunicationService : IHololensCommunicationService
     {
         private static HololensCommunicationService _instance;
         private Boolean _hololensConnectionStatus;
@@ -40,8 +40,9 @@ namespace ServiceHololensCommunication.Services
             return _idProcedimiento;
         }
 
-        public void SetProcedureData(int IdProcedimiento) {
+        public int SetProcedureData(int IdProcedimiento) {
             _idProcedimiento = IdProcedimiento;
+            return _idProcedimiento;
         }
     }
 }

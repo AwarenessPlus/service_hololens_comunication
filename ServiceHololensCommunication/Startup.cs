@@ -29,6 +29,17 @@ namespace ServiceHololensCommunication
         {
             HololensCommunicationService hololensCommunicationService = new();
             services.AddSingleton(hololensCommunicationService);
+            services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(
+                builder =>
+                {
+                    builder.WithOrigins("https://hololenscommunicationserviceawareness.azurewebsites.net/")
+                    .AllowAnyMethod()
+                    .AllowAnyHeader()
+                    .AllowAnyOrigin();
+                });
+            });
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
@@ -45,6 +56,7 @@ namespace ServiceHololensCommunication
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "ServiceHololensCommunication v1"));
             }
+            app.UseCors();
 
             app.UseHttpsRedirection();
 
