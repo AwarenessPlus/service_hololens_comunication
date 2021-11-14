@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aulasingenieria\\Documents\\Awareness+\\web services\\hololens-comunication\\service_hololens_comunication\\ServiceHololensCommunication\\ServiceHololensCommunication.csproj": {}
+    "C:\\Users\\aulasingenieria\\Documents\\Awareness+\\web services\\hololens-comunication\\Original\\service_hololens_comunication\\ServiceHololensCommunication\\ServiceHololensCommunication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aulasingenieria\\Documents\\Awareness+\\web services\\hololens-comunication\\service_hololens_comunication\\ServiceHololensCommunication\\ServiceHololensCommunication.csproj": {
+    "C:\\Users\\aulasingenieria\\Documents\\Awareness+\\web services\\hololens-comunication\\Original\\service_hololens_comunication\\ServiceHololensCommunication\\ServiceHololensCommunication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aulasingenieria\\Documents\\Awareness+\\web services\\hololens-comunication\\service_hololens_comunication\\ServiceHololensCommunication\\ServiceHololensCommunication.csproj",
+        "projectUniqueName": "C:\\Users\\aulasingenieria\\Documents\\Awareness+\\web services\\hololens-comunication\\Original\\service_hololens_comunication\\ServiceHololensCommunication\\ServiceHololensCommunication.csproj",
         "projectName": "ServiceHololensCommunication",
-        "projectPath": "C:\\Users\\aulasingenieria\\Documents\\Awareness+\\web services\\hololens-comunication\\service_hololens_comunication\\ServiceHololensCommunication\\ServiceHololensCommunication.csproj",
+        "projectPath": "C:\\Users\\aulasingenieria\\Documents\\Awareness+\\web services\\hololens-comunication\\Original\\service_hololens_comunication\\ServiceHololensCommunication\\ServiceHololensCommunication.csproj",
         "packagesPath": "C:\\Users\\aulasingenieria\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aulasingenieria\\Documents\\Awareness+\\web services\\hololens-comunication\\service_hololens_comunication\\ServiceHololensCommunication\\obj\\",
+        "outputPath": "C:\\Users\\aulasingenieria\\Documents\\Awareness+\\web services\\hololens-comunication\\Original\\service_hololens_comunication\\ServiceHololensCommunication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

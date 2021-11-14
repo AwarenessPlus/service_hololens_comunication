@@ -1,0 +1,11 @@
+C:\Users\aulasingenieria\Documents\Awareness+\web services\hololens-comunication\Original\service_hololens_comunication\ServiceHololensCommunication\obj\Release\net5.0\PubTmp\Out\ServiceHololensCommunication.exe
+C:\Users\aulasingenieria\Documents\Awareness+\web services\hololens-comunication\Original\service_hololens_comunication\ServiceHololensCommunication\obj\Release\net5.0\PubTmp\Out\appsettings.Development.json
+C:\Users\aulasingenieria\Documents\Awareness+\web services\hololens-comunication\Original\service_hololens_comunication\ServiceHololensCommunication\obj\Release\net5.0\PubTmp\Out\appsettings.json
+C:\Users\aulasingenieria\Documents\Awareness+\web services\hololens-comunication\Original\service_hololens_comunication\ServiceHololensCommunication\obj\Release\net5.0\PubTmp\Out\ServiceHololensCommunication.dll
+C:\Users\aulasingenieria\Documents\Awareness+\web services\hololens-comunication\Original\service_hololens_comunication\ServiceHololensCommunication\obj\Release\net5.0\PubTmp\Out\ServiceHololensCommunication.deps.json
+C:\Users\aulasingenieria\Documents\Awareness+\web services\hololens-comunication\Original\service_hololens_comunication\ServiceHololensCommunication\obj\Release\net5.0\PubTmp\Out\ServiceHololensCommunication.runtimeconfig.json
+C:\Users\aulasingenieria\Documents\Awareness+\web services\hololens-comunication\Original\service_hololens_comunication\ServiceHololensCommunication\obj\Release\net5.0\PubTmp\Out\ServiceHololensCommunication.pdb
+C:\Users\aulasingenieria\Documents\Awareness+\web services\hololens-comunication\Original\service_hololens_comunication\ServiceHololensCommunication\obj\Release\net5.0\PubTmp\Out\Microsoft.OpenApi.dll
+C:\Users\aulasingenieria\Documents\Awareness+\web services\hololens-comunication\Original\service_hololens_comunication\ServiceHololensCommunication\obj\Release\net5.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\aulasingenieria\Documents\Awareness+\web services\hololens-comunication\Original\service_hololens_comunication\ServiceHololensCommunication\obj\Release\net5.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\aulasingenieria\Documents\Awareness+\web services\hololens-comunication\Original\service_hololens_comunication\ServiceHololensCommunication\obj\Release\net5.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll

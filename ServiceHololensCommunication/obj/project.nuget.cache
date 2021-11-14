@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3eRwxzTOnJ9ch9Sc1A0G+z8/wC+qAP9TpvnLpr6CJK70LXF8Fx5RWcq2VWe4oEJ4CMfpFVRCGEfaacMqWfHhhA==",
+  "dgSpecHash": "3vRrhLrZiNr0OrwsyqDtNh1UY0uN+n9C6CfV7BcjhOXImD6UHN+Ue2r6sZVJX0zfG+tnQG5VZgu0Uw/0e7/UKw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aulasingenieria\\Documents\\Awareness+\\web services\\hololens-comunication\\service_hololens_comunication\\ServiceHololensCommunication\\ServiceHololensCommunication.csproj",
+  "projectFilePath": "C:\\Users\\aulasingenieria\\Documents\\Awareness+\\web services\\hololens-comunication\\Original\\service_hololens_comunication\\ServiceHololensCommunication\\ServiceHololensCommunication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aulasingenieria\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\aulasingenieria\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
