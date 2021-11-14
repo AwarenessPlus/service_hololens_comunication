@@ -15,7 +15,7 @@ namespace ServiceTest
             hololensCommunicationServiceMock = new Mock<IHololensCommunicationService>(); 
             _controller = new HololensCommunicationController(hololensCommunicationServiceMock.Object);       
         }
-        [Fact] public void Test1() { }
+
         [Fact] public void ok_GetHealthStatus_withResults() { 
             IActionResult okResult = _controller.GetHealth(); 
             Assert.IsType<OkObjectResult>(okResult as OkObjectResult);
